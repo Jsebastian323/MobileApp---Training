@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /c/Users/juans/MobileApp---Training log --oneline --all)",
+      "Bash(node --version:*)",
+      "Bash(npm --version:*)",
+      "Bash(pnpm --version:*)",
+      "Bash(docker:*)",
+      "Bash(npx:*)",
+      "Bash(/c/Users/juans/MobileApp---Training/apps/mobile/package.json:*)",
+      "Bash(/c/Users/juans/MobileApp---Training/apps/mobile/tsconfig.json:*)",
+      "Bash(\"/c/Users/juans/MobileApp---Training/apps/mobile/app/_layout.tsx\":*)",
+      "Bash(\"/c/Users/juans/MobileApp---Training/apps/mobile/app/index.tsx\":*)",
+      "Bash(/c/Users/juans/MobileApp---Training/packages/shared/tsconfig.json:*)",
+      "Bash(__NEW_LINE_02667a9ad814e522__ cat)",
+      "Bash(/c/Users/juans/MobileApp---Training/packages/shared/tsconfig.build.json:*)",
+      "Bash(__NEW_LINE_02667a9ad814e522__ echo \"shared tsconfigs created\")",
+      "Bash(/c/Users/juans/MobileApp---Training/packages/shared/src/types/index.ts:*)",
+      "Bash(/c/Users/juans/MobileApp---Training/packages/shared/src/validation/index.ts:*)",
+      "Bash(__NEW_LINE_d191df02165c3ad6__ cat)",
+      "Bash(/c/Users/juans/MobileApp---Training/packages/shared/src/index.ts:*)",
+      "Bash(__NEW_LINE_d191df02165c3ad6__ echo \"shared src files created\")",
+      "Bash(pnpm install:*)",
+      "Bash(npm exec:*)",
+      "Bash(printf:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git checkout:*)",
+      "Bash(/c/Users/juans/MobileApp---Training/packages/shared/src/types/training.ts:*)",
+      "Bash(/c/Users/juans/MobileApp---Training/packages/shared/src/types/logs.ts:*)",
+      "Bash(/c/Users/juans/MobileApp---Training/packages/shared/src/types/program.ts:*)",
+      "Bash(/c/Users/juans/MobileApp---Training/packages/shared/src/defaults/volume-landmarks.defaults.ts:*)",
+      "Bash(/c/Users/juans/MobileApp---Training/packages/shared/src/validation/program.schemas.ts:*)",
+      "Bash(/c/Users/juans/MobileApp---Training/packages/shared/package.json:*)",
+      "Bash(/c/Users/juans/MobileApp---Training/apps/api/src/modules/programs/services/hypertrophy-program-generator.service.ts:*)",
+      "Bash(git push:*)"
+    ]
+  }
+}
