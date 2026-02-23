@@ -1,0 +1,37 @@
+{
+  "name": "@training/root",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.19.0",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "scripts": {
+    "dev:api": "pnpm --filter @training/api dev",
+    "dev:mobile": "pnpm --filter @training/mobile start",
+    "build:shared": "pnpm --filter @training/shared build",
+    "build:api": "pnpm --filter @training/api build",
+    "lint": "pnpm -r lint",
+    "format": "prettier --write \"**/*.{ts,tsx,json,md}\"",
+    "test": "pnpm -r test",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "eslint": "^9.18.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.2",
+    "globals": "^16.0.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.20.0"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": ["webpack"]
+    },
+    "onlyBuiltDependencies": ["@nestjs/core", "unrs-resolver"]
+  }
+}
